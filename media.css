@@ -1,0 +1,27 @@
+@media (max-width:768px) {
+    body {
+        font-size: 20px;
+    }
+    .container-area {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .box {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .media {
+        display: flex;
+    }
+    .logo {
+        display: grid;
+    }
+    .menu {
+        display: flex;
+    }
+    footer {
+        font-size: 150%;
+    }
+    h1,
+    h2 {
+        display: grid;
+    }
+}
